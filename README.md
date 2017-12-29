@@ -45,6 +45,11 @@ exports.sessionMysql = {
 ```js
 // {app_root}/config/config.default.js
 exports.sessionMysql = {
+  database: '',
+  host: 'localhost',
+  port: '3306',
+  user: 'root',
+  password: '',
 };
 ```
 
